@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/hanif85/portofolio.git/static/css/main.8189922c.css",
-    "main.js": "/hanif85/portofolio.git/static/js/main.925be5ba.js",
-    "static/media/Resume_Aji_Priatmoko_Software_Engineer_12_Years.pdf": "/hanif85/portofolio.git/static/media/Resume_Aji_Priatmoko_Software_Engineer_12_Years.6700eddf9b7932077b2a.pdf",
-    "static/media/app.ico": "/hanif85/portofolio.git/static/media/app.167a2b75566233a6115e.ico",
-    "index.html": "/hanif85/portofolio.git/index.html",
-    "main.8189922c.css.map": "/hanif85/portofolio.git/static/css/main.8189922c.css.map",
-    "main.925be5ba.js.map": "/hanif85/portofolio.git/static/js/main.925be5ba.js.map"
+    "main.css": "/myPortofolio/static/css/main.8189922c.css",
+    "main.js": "/myPortofolio/static/js/main.c04d0f4f.js",
+    "static/media/Resume_Aji_Priatmoko_Software_Engineer_12_Years.pdf": "/myPortofolio/static/media/Resume_Aji_Priatmoko_Software_Engineer_12_Years.6700eddf9b7932077b2a.pdf",
+    "static/media/app.ico": "/myPortofolio/static/media/app.167a2b75566233a6115e.ico",
+    "index.html": "/myPortofolio/index.html",
+    "main.8189922c.css.map": "/myPortofolio/static/css/main.8189922c.css.map",
+    "main.c04d0f4f.js.map": "/myPortofolio/static/js/main.c04d0f4f.js.map"
   },
   "entrypoints": [
     "static/css/main.8189922c.css",
-    "static/js/main.925be5ba.js"
+    "static/js/main.c04d0f4f.js"
   ]
 }
