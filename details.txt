@@ -1,0 +1,9 @@
+Hello I'am
+Aji Priatmoko
+Software Engineer
+
+## colors
+green : #01be96
+
+name font family 
+font-family: 'Secular One', sans-serif;
