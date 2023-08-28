@@ -9,6 +9,7 @@ import { BsInstagram } from "react-icons/bs";
 import {  FiPhoneCall } from "react-icons/fi";
 import { Slide, Zoom, Fade } from "react-awesome-reveal";
 
+//test
 const Footer = () => {
   const scrollUp = () => {
     window.scroll({
