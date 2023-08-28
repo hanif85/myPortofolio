@@ -2,12 +2,14 @@
   "name": "yt-portfolio",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://github.com/hanif85/portofolio.git",
   "dependencies": {
     "@emotion/react": "^11.10.5",
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.3.0",
     "@testing-library/user-event": "^13.5.0",
     "bootstrap": "^5.3.1",
+    "gh-pages": "^6.0.0",
     "react": "^18.2.0",
     "react-awesome-reveal": "^4.1.0",
     "react-bootstrap": "^2.8.0",
@@ -24,7 +26,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "dev": "react-scripts dev"
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
