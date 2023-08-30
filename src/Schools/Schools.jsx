@@ -14,7 +14,7 @@ const schools = [
   {
     img_url: 'https://rekammedis.sv.ugm.ac.id/wp-content/uploads/sites/780/2020/10/Logo-Tengah-Stack-Up-1-510x510.jpg',
     name: "Bachelor of Engineering",
-    description: "Magister of Electrical Engineering Departement of Electrical Engineering and Information Technology.",
+    description: "Bachelor of Electrical Engineering Departement of Electrical Engineering and Information Technology.",
   },
   {
     img_url: 'https://mtglobalindo.co.id/wp-content/uploads/2018/04/Logo-undip-Universitas-Diponegoro.png',
@@ -93,15 +93,38 @@ const Schools = () => {
 // Replace 'SchoolSlider' with your actual component that renders school data
 const SchoolSlider = ({ item }) => {
   return (
-    <div>
-       <img src={item.img_url} alt={item.name} style={{ width: '50%', height: 'auto' }} />
-      <h2>{item.name}</h2>
-      <p>{item.description}</p>
-    </div>
+    <SchoolContainer>    
+        <img src={item.img_url} alt={item.name} />
+        <h2>{item.name}</h2>
+        <p>{item.description}</p>
+   </SchoolContainer>
+
   );
 }
 
 export default Schools;
+
+const SchoolContainer = styled.div`
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 1rem;
+  
+  img {
+    width: 200px;
+    height: 200px;
+    object-fit: contain;
+    margin: 0 auto;
+    display: block;
+  }
+
+  h2 {
+    margin-top: 1rem;
+  }
+`;
+
 const Container = styled.div`
     width: 80%;
     max-width: 1280px;
