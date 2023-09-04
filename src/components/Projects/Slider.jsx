@@ -3,28 +3,38 @@ import Slider from 'react-slick';
 import Project from './Project';
 import { IoIosArrowBack, IoIosArrowForward } from "react-icons/io";
 import styled from 'styled-components';
-
+import netraAndroid from '../../images/NetraAndroid.png'
+import webhomePage from "../../images/web-homepage.png"
+import netrahardware from "../../images/mobil asli_samping.png"
+import modbusESP from "../../images/ESP GUI for modbus.png"
+import pos from "../../images/Pos.png"
+import modbusGUI from "../../images/Modbus monitoring.png"
 let data = [
     {
-        img : "https://res.cloudinary.com/ghazni/image/upload/v1661324124/Yt-portfolio/ui5_mnvdaw.png",
-        disc : "Lorem ipsum dolor sit amet consectetur adipisicing elit.Eveniet iure rerum obcaecati et laborum earum!"
+        img : netraAndroid,
+        disc : "Netra Android app for depth detector"
     },
     {
-        img : "https://res.cloudinary.com/ghazni/image/upload/v1661324074/Yt-portfolio/ui4_jku3ol.png",
-        disc : "Lorem ipsum dolor sit amet consectetur adipisicing elit.Eveniet iure rerum obcaecati et laborum earum!"
+        img : webhomePage,
+        disc : "Web home page Netra"
     },
     {
-        img : "https://res.cloudinary.com/ghazni/image/upload/v1661323981/Yt-portfolio/ui2_wtollo.png",
-        disc : "Lorem ipsum dolor sit amet consectetur adipisicing elit.Eveniet iure rerum obcaecati et laborum earum!"
+        img : netrahardware,
+        disc : "Netra hardware"
     },
     {
-        img : "https://res.cloudinary.com/ghazni/image/upload/v1661323980/Yt-portfolio/ui3_akynn4.png",
-        disc : "Lorem ipsum dolor sit amet consectetur adipisicing elit.Eveniet iure rerum obcaecati et laborum earum!"
+        img : modbusESP,
+        disc : "GUI for modbus with ESP32 and QT/QML"
     },
     {
-        img : "https://res.cloudinary.com/ghazni/image/upload/v1661323979/Yt-portfolio/ui1_n3uiaz.png",
-        disc : "Lorem ipsum dolor sit amet consectetur adipisicing elit.Eveniet iure rerum obcaecati et laborum earum!"
-    }
+        img : pos,
+        disc : "POS with features Feature-rich system with networked, multi-price, categories, suppliers, user permissions, databases, reports, margin calculation, customer management, and more."
+    },
+    {
+      img : modbusGUI,
+      disc : "MODbusGUI is cross-platform GUI software allows polling devices  using various data transfer protocols by request-responce type."
+  }
+
 ];
 
 var settings = {
