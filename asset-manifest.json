@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/myPortofolio/static/css/main.8189922c.css",
-    "main.js": "/myPortofolio/static/js/main.16d19a51.js",
+    "main.js": "/myPortofolio/static/js/main.b60085cf.js",
     "static/media/NetraAndroid.png": "/myPortofolio/static/media/NetraAndroid.5a3285a0cb9a66e30faf.png",
     "static/media/web-homepage.png": "/myPortofolio/static/media/web-homepage.edcfb3c3d9af588d057c.png",
     "static/media/mobil asli_samping.png": "/myPortofolio/static/media/mobil asli_samping.d5132b1da2f6703576e8.png",
@@ -12,10 +12,10 @@
     "static/media/Modbus monitoring.png": "/myPortofolio/static/media/Modbus monitoring.1cb7792d3d16fb70f1f5.png",
     "index.html": "/myPortofolio/index.html",
     "main.8189922c.css.map": "/myPortofolio/static/css/main.8189922c.css.map",
-    "main.16d19a51.js.map": "/myPortofolio/static/js/main.16d19a51.js.map"
+    "main.b60085cf.js.map": "/myPortofolio/static/js/main.b60085cf.js.map"
   },
   "entrypoints": [
     "static/css/main.8189922c.css",
-    "static/js/main.16d19a51.js"
+    "static/js/main.b60085cf.js"
   ]
 }
